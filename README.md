@@ -1,0 +1,2 @@
+# R5T.I0088-1001
+An example IHostStartupBase implementation providing D1001 dummy services.
