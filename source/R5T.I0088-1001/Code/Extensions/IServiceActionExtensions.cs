@@ -10,7 +10,7 @@ namespace R5T.I0088_1001
     public static class IServiceActionExtensions
     {
         /// <summary>
-        /// Adds the <see cref="HostStartupBase"/> operation as a <see cref="ServiceLifetime.Singleton"/>.
+        /// Adds the <see cref="HostStartupBase"/> operation as a <see cref="Microsoft.Extensions.DependencyInjection.ServiceLifetime.Singleton"/>.
         /// </summary>
         public static IServiceAction<THostStartup> AddHostStartupAction<THostStartup>(this IServiceAction _,
             IServiceAction<IServiceY> serviceYAction)
